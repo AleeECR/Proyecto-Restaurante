@@ -1,0 +1,10 @@
+.ditem-img{
+    height: 500px;
+}
+
+.dt-img{
+    filter: brightness(0.7);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

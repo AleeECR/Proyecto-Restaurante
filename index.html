@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css\estilos.css">
+    <title>Ristorante Bella Vida</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">Ristorante Bella Vida</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Platillos">Platillos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Reseñas">Reseñas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active ditem-img">
+        <img src="img\Homemade-lasagna-1200x675.png" class="d-block w-100 dt-img img-fluid" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>Lasagna de Pollo</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <button class="btn btn-dark text-light btn-outline-light">Realizar Pedido</button>
+        </div>
+      </div>
+      <div class="carousel-item ditem-img">
+        <img src="img\acc78d19f296b00d093fa80060a695fb_pizza_napolitana.jpg" class="d-block w-100 dt-img img-fluid" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>Pizza</h5>
+          <!-- 1200x600px -->
+          <p>Some representative placeholder content for the second slide.</p>
+          <button class="btn btn btn-dark text-light btn-outline-light">Realizar Pedido</button>
+        </div>
+      </div>
+      <div class="carousel-item ditem-img">
+        <img src="img\pasta-con-camarones-tomate-ajo-pimienta-comida-italiana.jpg dt-img" class="d-block w-100 dt-img img-fluid" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>Pasta con Camarones</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <button class="btn btn-dark text-light btn-outline-light">Realizar Pedido</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Tarjetas -->
+   <h2 id="Platillos" class="text-center">Nuestros Platillos</h2>
+   <div class="container bg-gradient">
+    <div class="row d-flex justify-content-center">
+    <div class="card m-3" style="width: 18rem;">
+      <img src="img\images.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lasagna de Pollo</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+    <div class="card m-3" style="width: 18rem;">
+      <img src="img\photo_2025-05-23_17-35-18.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pizza</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+    <div class="card m-3" style="width: 18rem;">
+      <img src="img\pasta_con_camarones_en_salsa_blanca_68124_600_square.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pasta con Camarones</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>  
+    </div>
+    </div>
+    </div>
+      <!-- Reseñas    -->
+      <h2 id="Reseñas" class="text-center text-uppercase">Reseñas de Nuestros Clientes</h2>
+      <p>Valramos mucho las opiniones de nuestros clientes ya que gracias a ellos podemos mejorar y proveer una mejor atencion</p>
+      <div class="row d-flex justify-content-center">
+        <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+   </div>
+    <footer>
+        <div class="social">
+            <i class="bi bi-instagram text"><a href=""></a></i>
+            <i class="bi bi-telegram"><a href=""></a></i>
+            <i class="bi bi-youtube"><a href=""></a></i>
+            <i class="bi bi-twitter-x"><a href=""></a></i>
+        </div>
+        <div class="contacto">
+            <form action="">
+                <label for="" class="text-light">Nombre</label>
+                <input type="text">
+                <label for="" class="text-light">Correo Electronico</label>
+                <input type="email">
+            </form>
+        </div>
+    </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
